@@ -24,18 +24,10 @@ A command-line Java authentication project demonstrating password hashing, input
 
 ```text
 Secure-Login-System/
-├── pom.xml
+├── SecureLoginSystem.java
 ├── README.md
 ├── .gitignore
-└── src/
-    └── main/
-        └── java/
-            └── com/
-                └── thanuja/
-                    └── securelogin/
-                        ├── Main.java
-                        ├── AuthService.java
-                        └── UserRepository.java
+└── secure-users.db   # Generated locally when needed
 ```
 
 ## Run the project
@@ -43,10 +35,6 @@ Secure-Login-System/
 1. Install JDK 17 or newer and Maven.
 2. Open a terminal in the project folder.
 3. Run:
-
-   ```bash
-   mvn clean compile exec:java
-   ```
 
 The first run downloads dependencies and creates `secure-login.db` in the current working directory.
 
