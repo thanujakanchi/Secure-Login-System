@@ -1,4 +1,4 @@
-# Secure Login System (Java)
+# Secure Login System 
 
 A command-line Java authentication project demonstrating password hashing, input validation, SQLite persistence, protected profile output, and temporary lockout after repeated failed logins.
 
